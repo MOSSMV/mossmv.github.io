@@ -1,0 +1,122 @@
+---
+layout: default
+
+---
+
+<h1 class="pt-3">MOSS is all volunteer open source technology group</h1>
+<p class="lead pb-3">We are a collective friends, neighbors, government employees, designers, coders, students and more that work on social impact and open source projects together every Thursday night. Everyone who love open source software and working together are welcome! <a href="/about">Learn more</a>.</p>
+
+<div class="row mb-3">
+  <div class="col-md-4">
+      <div class="list-group">
+        <a href="/projects" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Explore our active projects</h5>
+          </div>
+          <p class="mb-1">Join or create a new project to work on with our community.</p>
+        </a>
+        <a href="/join" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Join our team</h5>
+          </div>
+          <p class="mb-1">Stay in the loop on upcoming events and opportunities.</p>
+        </a>
+      </div>
+  </div>
+  <div class="col-md-8">
+{% assign next_featured_event = site.events | where: "featured", true | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
+{% if next_featured_event %}
+    <div class="card mb-3">
+      <div class="card-header text-white bg-primary">
+        Featured upcoming event
+      </div>
+      <div class="card-body">
+        {% include event_card_body.html event=next_featured_event %}
+      </div>
+    </div>
+{% endif %}
+
+  {% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
+    <div class="card mb-3">
+      <div class="card-header">
+        <div>Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></div>
+      </div>
+      <div class="card-body">
+        {% if next_event %}
+          {% include event_card_body.html event=next_event %}
+        {% else %}
+            No upcoming events. Stay tuned for more!
+          <p><a href='{{ site.baseurl }}/events/'>See previous events</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="card mb-3">
+  <div class="card-header">
+    Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a>
+  </div>
+  <div class="card-body">
+    {% comment %}
+      show posts pinned to front page via pin_to_frontpage: true
+    {% endcomment %}
+    {% assign pinned_posts = site.posts | where_exp: 'post', 'post.pin_to_frontpage == true' | sort: 'date' %}
+    {% for pinned_post in pinned_posts %}
+      {% include post_list_item.html post=pinned_post %}
+    {% endfor %}
+
+    {% comment %}
+      also show the latest unpinned post
+    {% endcomment %}
+    {% assign post = site.posts | where_exp: 'post', 'post.pin_to_frontpage != true' | sort: 'date' | reverse | first %}
+    {% include post_list_item.html post=post %}
+  </div>
+</div>
+
+<div class='row'>
+  <div class='col-md-12'>
+    <hr />
+
+    <div class='sponsors'>
+      <h2 id='sponsors'>Sponsors</h2>
+      <p>
+        MOSS website is hosted at <a href='https://mossmv.github.io/'>Github Pages</a> and supported
+        by our amazing sponsors.
+      </p>
+
+      <p>
+        Is your organization interested in becoming a MOSS sponsor? <a href="mailto:fundraising@moss.org.mv">Drop us a line</a>!
+      </p>
+      <div class='row'>
+        <div class='col-md-2'>
+          <h4 class='sponsor-level'>Major Sponsors</h4>
+        </div>
+        <div class='col-md-3'>
+          <div itemscope itemtype='http://schema.org/Organization'>
+            <a href='http://www.dhiraagu.com.mv/' itemprop='url'>
+              <img src='{{ site.baseurl }}/img/sponsors/dhiraagu.jpg' alt='Dhiraagu' itemprop='logo' class='img-fluid' />
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class='row'>
+        <div class='col-md-2'>
+          <h4 class='sponsor-level'>Sustaining Sponsors</h4>
+        </div>
+        <div class='col-md-3'>
+        </div>
+      </div>
+      <hr />
+      <div class='row'>
+        <div class='col-md-2'>
+          <h4 class='sponsor-level'>Official Sponsors</h4>
+        </div>
+        <div class='col-md-3'>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

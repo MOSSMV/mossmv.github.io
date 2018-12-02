@@ -1,0 +1,70 @@
+<div class="container">
+  <div class='row'>
+    <div class='col-md-2 offset-md-2'>
+      <h4><a href="{{ site.baseurl }}/events">Past events</a></h4>
+      <ul class="list-unstyled">
+        <li>
+          <a href="{{ site.baseurl }}/about/code-of-conduct">Code of Conduct</a>
+        </li>
+      </ul>
+    </div>
+    <div class='col-md-2'>
+      <h4><a href="{{ site.baseurl }}/blog">Blog</a></h4>
+      <ul class="list-unstyled">
+        <li>
+          <!-- <a href="{{ site.baseurl }}/data-resources">Data & resources</a> -->
+        </li>
+      </ul>
+    </div>
+    <div class='col-md-2'>
+      <h4><a href="{{ site.baseurl }}/about">About</a></h4>
+      <ul class="list-unstyled">
+        <li>
+          <a href='{{ site.baseurl }}/about/team'>Team</a><br />
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/about/leadership-council">Leadership Council</a><br />
+        </li>
+        <li>
+          <a href='{{ site.baseurl }}/about/speaker-submissions'>Speaker submissions</a>
+        </li>
+        <li>
+          <a href='{{ site.baseurl }}/sponsor'>Sponsor</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class='col-md-2'>
+      <h4>Elsewhere </h4>
+      <ul class="list-unstyled">
+        {% if site.youtube %}
+        <li>
+          <i class='fa fa-fw fa-youtube'></i> <a href="https://www.youtube.com/channel/{{ site.youtube }}">YouTube</a>
+        </li>
+        {% endif %}
+        {% if site.facebook %}
+        <li>
+          <i class='fa fa-fw fa-facebook'></i> <a href="https://www.facebook.com/{{ site.facebook }}">Facebook</a>
+        </li>
+        {% endif %}
+        {% if site.twitter %}
+        <li>
+          <i class='fa fa-fw fa-twitter'></i> <a href="https://twitter.com/{{ site.twitter }}" target='_blank'>Twitter</a>
+        </li>
+        {% endif %}
+        {% if site.github %}
+        <li>
+          <i class='fa fa-fw fa-github'></i> <a href="https://github.com/{{ site.github }}" target='_blank'>GitHub</a>
+        </li>
+        {% endif %}
+        {% if site.telegram %}
+        <li>
+          <i class='fa fa-fw fa-slack'></i> <a href="{{ site.telegram }}" target='_blank'>Telegram</a>
+        </li>
+        {% endif %}
+    </div>
+    <div class='copyright col-md-12'>
+      &copy; 2018 MOSS
+    </div>
+  </div>
+</div>

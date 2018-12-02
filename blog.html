@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+description: A communal blog with the goal of amplifying more diverse perspectives and stories in open source software.
+---
+
+<h1>
+  <i class='fa fa-pencil'></i> Blog
+</h1>
+
+<p>
+  A communal blog with the goal of amplifying more diverse perspectives and stories in open source software.
+</p>
+
+<p>
+  <a href='{{ site.baseurl }}/feeds/posts.xml'><i class='fa fa-rss-square'></i> RSS feed</a>
+</p>
+
+{% for post in site.posts %}
+  {% include post_list_item.html post=post %}
+{% endfor %}

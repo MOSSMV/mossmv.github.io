@@ -1,0 +1,25 @@
+<div class='row'>
+  <div class='col-md-4'>
+    {% if include.post.image %}
+      <img class='img-thumbnail img-fluid' src='/img/uploads/{{ include.post.image }}' alt='{{ include.post.title }}' />
+    {% else %}
+      <img class='img-thumbnail img-fluid' src='{{site.logo}}' alt='{{ include.post.title }}' />
+    {% endif %}
+  </div>
+  <div class='col-md-8'>
+    <h4>
+      <a href='{{ include.post.url }}'>{{ include.post.title }}</a>
+    </h4>
+    <p>
+      <small>{{ include.post.date | date: "%b %-d, %Y" }} by
+        {% for author_key in include.post.authors %}
+          {% assign author = site.data.authors[author_key] %}
+          {{ author.name }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </small>
+      <br />
+      {{ include.post.description | markdownify }} <a href='{{include.post.url}}'>Read more &raquo;</a>
+    </p>
+    <br />
+  </div>
+</div>

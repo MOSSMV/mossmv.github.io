@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body data-spy="scroll" data-target="#toc">
+    <header class="header">
+      {% include header.html %}
+    </header>
+
+    <main class="container">
+      {{content}}
+    </main>
+
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+
+    {% include foot.html %}
+  </body>
+</html>

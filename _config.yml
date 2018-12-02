@@ -1,0 +1,62 @@
+name: Maldives Open Source Society
+url: https://mossmv.github.io
+title: Maldives Open Source Society
+description: "MOSS's weekly event to build, share, and learn"
+encoding: utf-8
+timezone: Indian/Maldives
+permalink: pretty
+
+# google_api_key: AIzaSyASGyuTdO6QCoVBaKSK360IWdpVpmGiqow
+google_analytics: UA-130173550-1
+
+# development key
+# google_api_key: AIzaSyBrSPsoJXo-iI97sUWEjIhDdCqUkghScQk
+
+github: mossmv
+twitter: 
+facebook: 
+youtube: 
+telegram: https://t.me/mossngo
+slack_org: https://mossmv.slack.com
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      type: "events"
+    values:
+      layout: "event"
+  - scope:
+      type: projects
+    values:
+      layout: project
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - README.md
+  - scripts
+  - vendor/bundle/
+  - yarn.lock
+
+future: true
+
+logo: /img/logo.png
+
+collections:
+  events:
+    output: true
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
