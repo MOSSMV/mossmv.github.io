@@ -2,6 +2,7 @@
 layout: default
 title: Code of Conduct
 description: The Maldives Open Source Society community Code of Conduct.
+published: true
 ---
 
 # Maldives Open Source Society is a space for everyone.
@@ -18,7 +19,7 @@ Below, you’ll find the full text of our Code of Conduct, with more detailed in
 
 ## Code of Conduct
 
-Maldives Digital Society will follow code of conduct (amended to fit the goals of the NGO) based on Ubuntu Code of Conduct v2.0, which is as follows.
+Maldives Open Source Society will follow code of conduct (amended to fit the goals of the NGO) based on Ubuntu Code of Conduct v2.0, which is as follows.
 
 ## We strive to:
 
