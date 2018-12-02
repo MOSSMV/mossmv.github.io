@@ -14,6 +14,7 @@ skills_needed:
   - javascript
 repos:
   - 'https://github.com/MOSSMV/data.mv'
+published: true
 ---
 # data-mv
 
