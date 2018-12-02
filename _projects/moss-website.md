@@ -14,7 +14,7 @@ skills_needed:
   - website
   - moss
 civic_topics:
-  - ''
+  - open source
 repos:
   - 'https://github.com/MOSSMV/mossmv.github.io'
 ---
