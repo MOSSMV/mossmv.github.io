@@ -3,7 +3,7 @@ title: data-mv
 app_link: 'https://github.com/MOSSMV/data.mv'
 license: MIT
 project_status: proposed
-image_path: /img/logo.png
+image_path: /img/uploads/mv-open-data.png
 active: true
 blurb: >-
   This project aims to make better tools for visualization of data of Maldives.
