@@ -11,10 +11,13 @@ blurb: >-
   language and we plan to make scripts to convert this data in to a web friendly
   format and also give APIs
 skills_needed:
+  - Python
+  - shell script
   - javascript
+  - html
+  - css
 repos:
   - 'https://github.com/MOSSMV/data.mv'
-published: true
 ---
 # data-mv
 
