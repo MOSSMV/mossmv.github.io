@@ -11,8 +11,10 @@ blurb: >-
   The current thought is to using a static site generator, Jekyll. This
   repository is an attempt at that. It is now live at http://mossmv.github.io.
 skills_needed:
-  - website
-  - moss
+  - javascript
+  - html
+  - css
+  - git
 civic_topics:
   - open source
 repos:
