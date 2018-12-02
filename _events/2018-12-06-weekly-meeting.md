@@ -13,6 +13,8 @@ address:
   street: Boduthakurufaanu Magu
   locality: Maldives
   region: Male'
+agenda: >-
+  https://docs.google.com/document/d/1uFBKToa1oR3YjovKbvbitnjq5_m3g0Dz-ZWw4MCefg4/edit?usp=drivesdk
 ---
 <!-- imported via scripts/generate-events-from-meetup -->
 Our weekly meeting is focused on open source and making government services better in Maldives
