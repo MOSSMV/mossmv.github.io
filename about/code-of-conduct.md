@@ -37,7 +37,7 @@ We can all make mistakes; when we do, we take responsibility for them. If someon
 
 - Be collaborative
 
-Since this NGO, encompasses people from various different fields related to information and creative computing technologies, any work we do will include a complex whole made of many parts, it is the sum of many dreams. Collaboration between members in MDS, and between MDS and other NGOs that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole. 
+Since this NGO, encompasses people from various different fields related to information and creative computing technologies, any work we do will include a complex whole made of many parts, it is the sum of many dreams. Collaboration between members in MOSS, and between MOSS and other NGOs that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole. 
 Collaboration reduces redundancy and improves the quality of our work. Internally and externally, we celebrate good collaboration. 
 Disagreements, social and technical, are normal, but we do not allow them to persist and fester leaving others uncertain of the agreed direction.
 We expect participants in the project to resolve disagreements constructively. When they cannot, we escalate the matter to structures with designated leaders to arbitrate and provide clarity and direction.
@@ -79,7 +79,7 @@ Leadership occasionally requires bold decisions that    will not be widely under
 
 ## Conflicts of interest
 
-We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in MDS does so with the goal of making life better for its members and the public.
+We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in MOSS does so with the goal of making life better for its members and the public.
 
 When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.
 
