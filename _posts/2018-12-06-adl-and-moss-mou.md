@@ -5,7 +5,7 @@ image_alt: The Academy of Dhivehi Language today signed into a MOU
 title: The Academy of Dhivehi Language today signed into a MOU
 description: The Academy of Dhivehi Language (ADL) today signed into a MoU with Maldives Open Source Society (MOSS) a NPO promoting open source in the Maldives, to offer digitization services to open up data.
 pin_to_frontpage: true
-image_list_only: true
+image_list_only: false
 ---
 ## The Academy of Dhivehi Language today signed into a MOU with MOSS
 
