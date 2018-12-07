@@ -1,4 +1,4 @@
-{% capture imagePath %}/img/uploads/{{ include.name }}{% endcapture %}
+{% capture imagePath %}{{ include.name }}{% endcapture %}
 <a href="{{ imagePath }}">
   <img class="{{ include.class | default: "img-fluid center-block" }}" src="{{ imagePath }}" alt="{{ include.alt }}" style="{{ include.style | default: "" }}" />
 </a>
