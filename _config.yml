@@ -5,6 +5,7 @@ description: "MOSS's weekly event to build, share, and learn"
 encoding: utf-8
 timezone: Indian/Maldives
 permalink: pretty
+environment: production
 
 # google_api_key: AIzaSyASGyuTdO6QCoVBaKSK360IWdpVpmGiqow
 google_analytics: UA-130278984-1
@@ -12,8 +13,8 @@ google_analytics: UA-130278984-1
 # development key
 # google_api_key: AIzaSyBrSPsoJXo-iI97sUWEjIhDdCqUkghScQk
 
-github: mossmv
-twitter: 
+github: https://github.com/mossmv
+twitter: https://twitter.com/moss_ngo
 facebook: 
 youtube: 
 telegram: https://t.me/mossngo
