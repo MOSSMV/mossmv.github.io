@@ -13,12 +13,12 @@ google_analytics: UA-130278984-1
 # development key
 # google_api_key: AIzaSyBrSPsoJXo-iI97sUWEjIhDdCqUkghScQk
 
-github: https://github.com/mossmv
-twitter: https://twitter.com/moss_ngo
+github: mossmv
+twitter: moss_ngo
 facebook: 
 youtube: 
 telegram: https://t.me/mossngo
-slack_org: https://mossmv.slack.com
+slack_org: 
 
 defaults:
   -
