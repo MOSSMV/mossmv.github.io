@@ -13,4 +13,4 @@ address:
   region: Male'
 agenda: https://docs.google.com/document/d/1Rgyd2o2ayIMhgrUtOQtq3-Oe99sxkbRCQ0AFlIrlyKw/edit?usp=drivesdk
 ---
-Our weekly meeting is focused on open source and making government services better in Maldives
+Our weekly meeting is focused on open source and making government services better in Maldives.
